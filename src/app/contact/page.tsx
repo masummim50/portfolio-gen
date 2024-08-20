@@ -70,7 +70,7 @@ const ContactPage = () => {
         <label className="text-cyan-500 font-light">Email</label>
         <input
           required
-          placeholder="Enter Your Email - i will reply to this address"
+          placeholder="Enter Your Email"
           className="text-gray-600 px-3 py-2 outline-none rounded-md mb-3"
           type="email"
           name="reply_to"
