@@ -3,7 +3,7 @@ import React from "react";
 const projects = [
   {
     title: "Project Management System",
-    live: "https://capable-croissant-486a0f.netlify.app",
+    live: "https://kaleidoscopic-piroshki-3cde2a.netlify.app/",
     links: { frontEnd: "https://github.com/masummim50/project-management-frontend", backEnd: "https://github.com/masummim50/project-management-backend" },
     technologies: {
       frontEnd: [
@@ -44,7 +44,7 @@ const projects = [
   },
   {
     title: "Multi-vendor e-commerce Website",
-    live: "https://best-buy-nu.vercel.app",
+    live: "https://bb-frontend-clone-gen.vercel.app/",
     links: { frontEnd: "https://github.com/masummim50/ecommerce-nextjs14-approuter", backEnd: "https://github.com/masummim50/ecommerce-backend-prisma" },
     technologies: {
       frontEnd: [
