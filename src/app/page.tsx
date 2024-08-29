@@ -1,5 +1,7 @@
 import CustomTypeWriter from "@/Components/typeWriter/TypeWriter";
 import Image from "next/image";
+import { SiFiverr } from "react-icons/si";
+
 
 
 import { FaGithub,FaLinkedin,FaDownload  } from "react-icons/fa";
@@ -17,29 +19,9 @@ export default function Home() {
             <CustomTypeWriter />
           </span>
         </h1>
-        <div className="mt-3 flex gap-2">
-          <button className="bg-gray-900  px-3 py-1 rounded-md ">
-            <a className="flex items-center gap-1" target="_blank" href="https://github.com/masummim50">
-              Github <span className="inline-block"><FaGithub/></span>
-            </a>
-          </button>
-          <button className="bg-blue-500  px-3 py-1 rounded-md ">
-            <a className="flex items-center gap-1"
-              target="_blank"
-              href="https://www.linkedin.com/in/masum-billah-65709a146/"
-            >
-              Linkedin <span className="inline-block"><FaLinkedin/></span>
-            </a>
-          </button>
-        </div>
-        <a className="flex items-center bg-cyan-500 rounded-md mt-3 px-3 py-1"
-          target="_blank"
-          href="https://drive.google.com/u/0/uc?id=1Iog7pdvkCA3HFp0iDyczZ5wP5zd2G-3q&export=download"
-        >
-          <button className="btn brand-btn">
-            Download Resume <span className="inline-block"><FaDownload /></span>
-          </button>
-        </a>
+        <button>
+          <a href="https://masumdev-gen.vercel.app/" target="_blank" rel="noopener noreferrer"></a>
+        </button>
       </div>
       
     </div>

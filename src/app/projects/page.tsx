@@ -3,8 +3,7 @@ import React from "react";
 const projects = [
   {
     title: "Project Management System",
-    live: "https://kaleidoscopic-piroshki-3cde2a.netlify.app/",
-    links: { frontEnd: "https://github.com/masummim50/project-management-frontend", backEnd: "https://github.com/masummim50/project-management-backend" },
+    live: "https://capable-croissant-486a0f.netlify.app",
     technologies: {
       frontEnd: [
         "react",
@@ -44,8 +43,7 @@ const projects = [
   },
   {
     title: "Multi-vendor e-commerce Website",
-    live: "https://bb-frontend-clone-gen.vercel.app/",
-    links: { frontEnd: "https://github.com/masummim50/ecommerce-nextjs14-approuter", backEnd: "https://github.com/masummim50/ecommerce-backend-prisma" },
+    live: "https://best-buy-nu.vercel.app/",
     technologies: {
       frontEnd: [
         "nextjs (app router)",
@@ -87,19 +85,16 @@ const fontEndProjects = [
     name: "Gaming Dashboard",
     tech:'React',
     liveLink: "https://elaborate-piroshki-f91fe1.netlify.app/",
-    code: "https://github.com/masummim50/dashboard-gaming",
   },
   {
     name: "Project Management Dashboard",
     tech:'React',
     liveLink: "https://wondrous-pasca-292302.netlify.app/",
-    code: "https://github.com/masummim50/dashboard-project-management-frontend-only",
   },
   {
     name: "Travel landing Page",
     tech:'Nextjs',
     liveLink: "https://landing-page-voyage.vercel.app/",
-    code: "https://github.com/masummim50/landing-page-travel-life",
   },
 ];
 
@@ -125,11 +120,6 @@ const ProjectsPage = () => {
                   Live Site
                 </a>
               </div>
-              <div className="flex justify-center my-2 underline w-full">
-                <a href={project.code} target="_blank">
-                  Code
-                </a>
-              </div>
             </div>
           ))}
         </div>
@@ -149,18 +139,6 @@ const ProjectsPage = () => {
             >
               Live Site
             </a>
-          </div>
-          <div className="flex justify-end w-full gap-3 underline">
-            {project.links.frontEnd && (
-              <a href={project.links.frontEnd} target="_blank">
-                FrontEnd Code
-              </a>
-            )}
-            {project.links.backEnd && (
-              <a href={project.links.backEnd} target="_blank">
-                Backend Code
-              </a>
-            )}
           </div>
           <div>
             <h2>Technologies: </h2>
